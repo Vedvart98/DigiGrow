@@ -5,6 +5,7 @@ target/
 /**/target/
 /backend/target/
 /backend/src/main/resources
+/backend/src/test
 /**/src/main/resources
 ### STS ###
 .apt_generated
