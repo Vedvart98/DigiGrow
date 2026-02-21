@@ -5,6 +5,11 @@ target/
 !**/src/test/**/target/
 !**/backend/target/
 !**/backend/src/**/resources/
+/target/
+/**/target/
+/backend/target/
+/backend/src/main/resources
+/**/src/main/resources
 ### STS ###
 .apt_generated
 .classpath
@@ -13,7 +18,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
+.DS_Store
 ### IntelliJ IDEA ###
 .idea
 *.iws
