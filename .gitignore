@@ -1,38 +1,47 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-/target/
-/**/target/
-/backend/target/
-/backend/src/main/resources
-/backend/src/test
-/**/src/main/resources
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# =========================
+# OS files
+# =========================
 .DS_Store
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-**/.DS_Store
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-**/src/main/**/build/
-**/src/test/
+Thumbs.db
 
-### VS Code ###
+# =========================
+# IDE / Editor files
+# =========================
+.idea/
+**/.idea/
+*.iml
 .vscode/
+
+# =========================
+# Backend (Java / Maven)
+# =========================
+backend/src/test/
+backend/target/
+**/target/
+backend/src/main/resources/
+# Logs
+*.log
+
+# =========================
+# Frontend (Node / Vite)
+# =========================
+frontend/node_modules/
 node_modules/
-.gitignore
+
+# Build outputs
+frontend/dist/
+dist/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Misc
+# =========================
+coverage/
+.tmp/
+.cache/
